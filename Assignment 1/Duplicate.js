@@ -14,6 +14,6 @@ var Duplicate = function(arr) {
 };
 
 var nums = [1, 2, 3, 4, 2, 1, 4];
-var k = Duplicate(arr);
+var k = Duplicate(nums);
 console.log("New length:", k);
-console.log("New array:", arr.slice(0, k));
+console.log("New array:", nums.slice(0, k));
